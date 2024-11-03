@@ -1,11 +1,7 @@
+import { details } from "@/public/details";
 import { useRouter } from "next/router";
 import React from "react";
 
-const details = [
-  { id: 1, name: "Yash", role: "Senior Developer" },
-  { id: 2, name: "Vaibhav", role: "Backend Developer" },
-  { id: 3, name: "Suresh", role: "Frontend Developer" },
-];
 
 export default function Details() {
   const router = useRouter();
